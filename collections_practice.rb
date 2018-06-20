@@ -1,4 +1,4 @@
 # your code goes here
 def begins_with_r(array)
-  array.all? { |word| }
+  array.all? { |word| start_with?}
 end
