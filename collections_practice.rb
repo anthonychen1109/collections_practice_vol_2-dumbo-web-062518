@@ -4,5 +4,5 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-  array.include?('a')
+  array.include? {|word| word.include?('a')}
 end
